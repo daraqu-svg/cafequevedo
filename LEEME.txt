@@ -1,0 +1,18 @@
+CAFEQUEVEDO V2
+
+Esta versión usa una sola página para que los enlaces funcionen sin depender de archivos HTML separados.
+
+Navegación:
+- Inicio -> #inicio
+- Bitácora -> #bitacora
+- Noticias & Tips -> #noticias
+
+Para abrirla:
+1. Extrae TODO el ZIP.
+2. Mantén la carpeta assets junto a index.html.
+3. Abre index.html en Chrome, Edge, Firefox u Opera.
+
+Para actualizar la Bitácora:
+Busca en index.html la sección id="bitacora" y cambia o duplica los bloques de contenido.
+
+Las imágenes se incluyen dentro de la carpeta assets para que el sitio funcione sin internet.
