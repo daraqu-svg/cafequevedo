@@ -16,3 +16,18 @@ Para actualizar la Bitácora:
 Busca en index.html la sección id="bitacora" y cambia o duplica los bloques de contenido.
 
 Las imágenes se incluyen dentro de la carpeta assets para que el sitio funcione sin internet.
+
+
+Actualización V3: Se añadió una entrada SEMANA 2 en la Bitácora con acceso a la presentación estratégica de CafeQuevedo en Canva.
+
+
+NUEVO APARTADO: “Patrocinador habla”
+Incluye un artículo sobre Fintech, servicios financieros digitales, administración personal/familiar y una estrategia de educación financiera para CafeQuevedo.
+
+
+BITÁCORA — SEMANA 4
+Se agregó el avance “Ahora tenemos Instagram” con enlace a @cafequevedo1940 y una actualización actual del mercado cafetero colombiano con fuente de la Federación Nacional de Cafeteros.
+
+
+BITÁCORA — SEMANA 7
+Se agregaron dos presentaciones en Canva: Estrategia de Marketing Digital e Inbound y De la estrategia a la acción.

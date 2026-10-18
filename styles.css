@@ -120,3 +120,118 @@ section{padding:58px 0;scroll-margin-top:90px}
   .hero-copy{padding:34px}
   .hero-image{min-height:350px}
 }
+
+
+/* Bitácora por semanas */
+.journal-weeks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.week-card{padding:28px;position:relative}
+.week-number{display:inline-block;margin-bottom:10px;padding:6px 11px;border-radius:999px;background:rgba(213,168,91,.12);border:1px solid rgba(213,168,91,.72);color:#f6d69d;font-size:.75rem;font-weight:900;letter-spacing:.12em}
+.canva-entry{background:linear-gradient(150deg,#123a59,#081d30 72%)}
+.presentation-box{display:flex;align-items:center;gap:14px;margin:22px 0;padding:16px;border:1px solid rgba(213,168,91,.45);border-radius:16px;background:rgba(255,255,255,.035)}
+.presentation-icon{font-size:2rem}
+.presentation-box strong{display:block;color:#f3d397}
+.presentation-box span{display:block;margin-top:3px;color:#afc0d0;font-size:.88rem}
+.canva-button{margin-top:0}
+@media(max-width:850px){.journal-weeks{grid-template-columns:1fr}}
+
+
+/* Patrocinador habla / Fintech */
+.sponsor-section{
+  background:
+    radial-gradient(circle at 12% 15%,rgba(92,160,213,.08),transparent 26%),
+    radial-gradient(circle at 86% 86%,rgba(213,168,91,.08),transparent 30%);
+}
+.sponsor-article{padding:34px}
+.sponsor-header{
+  display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center;
+  padding-bottom:24px
+}
+.sponsor-lead{max-width:78ch}
+.fintech-mark{
+  min-width:130px;height:130px;border-radius:30px;
+  display:grid;place-items:center;font-size:3rem;
+  border:1px solid rgba(213,168,91,.6);
+  background:linear-gradient(145deg,rgba(213,168,91,.16),rgba(24,93,139,.13));
+  box-shadow:inset 0 0 35px rgba(255,255,255,.03)
+}
+.fintech-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:12px
+}
+.finance-panel{
+  padding:24px;border-radius:20px;border:1px solid rgba(96,190,146,.35);
+  background:linear-gradient(180deg,rgba(42,115,80,.12),rgba(255,255,255,.02))
+}
+.warning-panel{
+  border-color:rgba(222,153,91,.4);
+  background:linear-gradient(180deg,rgba(146,76,42,.14),rgba(255,255,255,.02))
+}
+.finance-panel ul{margin:14px 0 0;padding-left:20px}
+.finance-panel li{margin:9px 0;color:#e6ddd0}
+.finance-icon{
+  width:40px;height:40px;border-radius:50%;display:grid;place-items:center;
+  border:1px solid rgba(213,168,91,.6);color:#f6d69d;font-weight:900
+}
+.article-divider{
+  height:1px;background:linear-gradient(90deg,transparent,rgba(213,168,91,.55),transparent);
+  margin:36px 0
+}
+.finance-checklist{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0
+}
+.check-card{
+  padding:20px;border-radius:18px;border:1px solid rgba(213,168,91,.28);
+  background:rgba(255,255,255,.025)
+}
+.check-card span{
+  display:block;font-family:Georgia,serif;color:#e8be75;font-size:1.55rem;margin-bottom:7px
+}
+.check-card strong{color:#f3d397}
+.check-card p{color:#cfd8df;margin-bottom:0}
+.strength-box{
+  display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px
+}
+.strength-box>div{
+  padding:20px;border-radius:18px;border-left:4px solid var(--gold);
+  background:rgba(255,255,255,.025)
+}
+.strategy-steps{display:grid;gap:15px;margin:22px 0}
+.strategy-step{
+  display:grid;grid-template-columns:52px 1fr;gap:15px;align-items:start;
+  padding:18px;border:1px solid rgba(213,168,91,.3);
+  border-radius:18px;background:rgba(255,255,255,.025)
+}
+.strategy-step>span{
+  width:42px;height:42px;border-radius:50%;display:grid;place-items:center;
+  background:rgba(213,168,91,.14);border:1px solid rgba(213,168,91,.55);
+  color:#f6d69d;font-weight:900
+}
+.strategy-step strong{color:#f3d397}
+.strategy-step p{margin:5px 0 0;color:#d7d2c9}
+.cafedata-box{
+  display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;
+  margin-top:28px;padding:24px;border-radius:22px;
+  border:1px solid rgba(91,160,209,.38);
+  background:linear-gradient(135deg,rgba(22,76,114,.25),rgba(213,168,91,.05))
+}
+.cafedata-icon{font-size:2.6rem}
+.mini-kpis{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.mini-kpis span{
+  padding:7px 10px;border-radius:999px;border:1px solid rgba(213,168,91,.35);
+  color:#e7c787;font-size:.78rem;font-weight:800
+}
+.finance-quote{
+  margin:30px 0 0;padding:22px 24px;border-left:4px solid var(--gold);
+  background:rgba(213,168,91,.07);font-family:Georgia,serif;
+  font-size:1.35rem;color:#f5d89f
+}
+.references-box{
+  margin-top:24px;padding-top:18px;border-top:1px solid rgba(213,168,91,.28);
+  color:#aebdca;font-size:.88rem
+}
+.references-box strong{color:#d9bd86}
+@media(max-width:850px){
+  .sponsor-header,.fintech-grid,.strength-box,.cafedata-box{grid-template-columns:1fr}
+  .finance-checklist{grid-template-columns:1fr}
+  .fintech-mark{width:110px;height:110px;min-width:110px}
+  .sponsor-article{padding:24px}
+}
